@@ -19,9 +19,6 @@
 			"license": "MIT"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
-		"entrypoints": {
-			"init": "dev.lhvy.autorespawn.AutoRespawn"
-		},
 		"depends": [
 			{
 				"id": "quilt_loader",
