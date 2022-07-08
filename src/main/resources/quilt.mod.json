@@ -1,25 +1,26 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "dev.lhvy",
+		"id": "autorespawn",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "AutoRespawn",
+			"description": "Automatically respawn on death.",
 			"contributors": {
-				"Me!": "Owner"
+				"lhvy": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/lhvy/autorespawn",
+				"issues": "https://github.com/lhvy/autorespawn/issues",
+				"sources": "https://github.com/lhvy/autorespawn"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/autorespawn/icon.png",
+			"license": "MIT"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "dev.lhvy.autorespawn.AutoRespawn"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "autorespawn.mixins.json"
 }
